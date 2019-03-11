@@ -1,0 +1,31 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#divlogin{
+	text-align:center;
+	background-color:#e0e0d1;
+	width:300px;
+	height:250px;
+	margin:140px auto 0px;
+	border-radius:5px;
+}
+
+#imgGado{
+	width:50%;
+	padding: 20px;
+}
+
+#usuario, #senha{
+	border-radius:3px;
+	height:18px;
+	margin: 3px;
+}
+
+#entrar{
+	width:80px;
+	height:25px;
+	cursor: pointer;
+}
+

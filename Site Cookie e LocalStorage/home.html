@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mercado Gado</title>
+	<link rel="stylesheet" type="text/css" href="css/styleHome.css">
+	<script type="text/javascript" src="javascript/home.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="header">
+			<div class="geral">
+				<img id="imgGado" src="img/gado.png" alt="gado">
+				<button id="desconectar" onclick="logout()">Desconectar</button>
+				<div id="titulo">
+					<h1>Mercado Gado</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div id="menu">
+			<div class="geral">
+				<ul>
+					<li id="home" onclick="setCookie(this)">
+						<b>HOME</b>
+					</li>
+					<li  id="racas" onclick="setCookie(this)">
+						<b>RAÇAS</b>
+					</li>
+					<li id="ofertas" onclick="setCookie(this)">
+						<b>OFERTAS</b>
+					</li>
+					<li id="servicos" onclick="setCookie(this)">
+						<b>SERVIÇOS</b>
+					</li>
+					<li id="sobre" onclick="setCookie(this)">
+						<b>SOBRE</b>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section>
+		<div class="geral">
+			<div id="cadastro">
+				<form onsubmit="return register()">
+					<p>&nbsp;</p>
+					<h1>Dê nome aos bois</h1>
+					<p>&nbsp;</p>
+					<b>Raça:</b>
+					<input id="raca" type="text">
+					<p>&nbsp;</p>
+					<b>Peso:</b>
+					<input id="peso" type="text">
+					<p>&nbsp;</p>
+					<b>Nome:</b>
+					<input id="nome" type="text">
+					<p>&nbsp;</p>
+					<button id="cadastrar">Cadastrar</button>
+					<button id="carregar" onclick="carregar()">Carregar</button>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
