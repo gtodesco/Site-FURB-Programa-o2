@@ -1,0 +1,175 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+
+#header{
+	height: 125px;
+	background-color: #005FA4;
+}
+
+.geral{
+	width: 978px;
+	margin: auto;
+    position: relative;
+}
+
+li {
+	cursor: pointer;
+}
+
+#busca{
+    float: right;
+	margin-top: 40px;
+    background-color: #00549A;
+    width: 216px;
+    padding: 12px;
+}
+
+#busca b{
+    width: 49px;
+    float: left;
+	color: #FFF;
+	font: 8pt Verdana, Geneva, sans-serif;
+	padding-top: 5px;
+}
+
+#busca input{
+    width: 134px;
+    height: 19px;
+    padding: 3px;
+    float: left;
+    border: 0px;
+    font: 11px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#busca button{
+    background: #fee800;
+    width: 27px;
+    height: 25px;
+    color: #00549A;
+    font-size: 26px;
+    line-height: 26px;
+    padding: 0;
+    position: relative;
+	border: 0px;
+}
+
+#menu{
+    background-color: #00549A;
+	font: 13px Arial, Helvetica, sans-serif;
+	min-height: 40px;
+}
+
+#menu ul li{
+	color: #FFF;
+    display: inline;
+    height: 40px;
+    line-height: 40px;
+	padding: 0px 12px;
+}
+
+#toolbar{
+	background-color: #F6F6F1;
+	height: 40px;	
+	color: #00549A;
+}
+
+#path{
+	position: relative;
+	left: 10px;
+	top: 15px;
+	font: 7pt Verdana, Geneva, sans-serif;
+}
+
+#right_menu{
+	margin-top: 30px;
+	float: right;
+	font-size: 14px;
+	color: #00549A;
+}
+
+#right_menu ul li{
+	list-style-type: none;
+	border-top: 1px solid #D6D3B8;
+}
+
+#right_menu ul li:hover{
+	background-color: #F6F6F1;
+}
+
+#right_menu a{
+	padding: 10px;
+	font-size: 13pt;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 210%;
+	text-decoration: none;
+}
+
+#right_menu a:link{
+	color: #00549A; 
+}
+
+#right_menu a:visited{
+	color: #00549A; 
+}
+
+.selected{
+	font-weight: bold;
+	border-left: 1px solid #D6D3B8;
+	border-right: 1px solid #D6D3B8;
+	background-color: #F6F6F1; 
+}
+
+.main section {
+	width:80%;
+	float: left;
+}
+
+.main aside {
+	width:20%;
+	float: left;
+}
+
+#adm{
+	float: left;
+	width: 30%;
+}
+
+#img{
+	margin-top: 30px;
+}
+
+.legenda{
+    font: 8pt Verdana, Geneva, sans-serif;
+    color: #333;
+    line-height: 140%;
+}
+
+#text{
+	float: left;
+	width: 61%;
+	margin-top: 25px;
+	margin-left: 30px;
+	line-height: 160%;
+}
+
+#titulo{
+	float: left;
+	font: 15pt Arial, Helvetica, sans-serif;
+    color: #00549a;
+	margin-bottom: 25px;
+}
+
+#text div{
+    color: #333333;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	float: left;
+	margin-bottom: 15px;
+}
+
+
+
+
